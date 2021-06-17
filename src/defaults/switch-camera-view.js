@@ -2,18 +2,22 @@ import React from 'react'
 import SVGInline from 'react-svg-inline'
 import styled from 'styled-components'
 
+// const SVGWrapper = styled.div`
+//   width: 80px;
+//   height: 80px;
+//   bottom: 4px;
+//   right: 4px;
+//   z-index: 10;
+//   background-color: rgba(0, 0, 0, 0.3);
+//   border-radius: 50%;
+//   padding-left: 8px;
+//   padding-top: 10px;
+//   position: absolute;
+//   cursor: pointer;
+// `
+
 const SVGWrapper = styled.div`
-  width: 80px;
-  height: 80px;
-  bottom: 4px;
-  right: 4px;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  padding-left: 8px;
-  padding-top: 10px;
-  position: absolute;
-  cursor: pointer;
+ 
 `
 
 const icon = `
